@@ -7,6 +7,8 @@ User stories are most often phrased as: "As a \_**\_(user type)\_\_\_** I need \
 1. "As a **foodie** I need **to upload my favorite restaurants** so I can **share my recommendations**."
 2. "As a **user type** I need **feature** so I can **action**."
 
+Routes
+
 | Method |  Path   |      Purpose      |
 | :----: | :-----: | :---------------: |
 |  GET   |    /    |     Home page     |
@@ -21,3 +23,14 @@ User stories are most often phrased as: "As a \_**\_(user type)\_\_\_** I need \
 | DELETE | /places/:id/:rantid | Delete a rant (comment) about a particular place |
 |  GET   |    *    | 404 [age (matches any route not defined above)] |
 
+Database
+
+Places
+| Field |  Type   |
+| :----:| :-----: | 
+|  _id  | Object ID |   
+|  name | String | 
+|  city | String | 
+| state | String | 
+| cuisines | String | 
+|  pic  | String | 
