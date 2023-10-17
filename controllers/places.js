@@ -40,7 +40,9 @@ router.delete('/:id', (req, res) => {
   }
 })
 
-
+router.get('/:id', (req, res) => {
+  res.render('places/show')
+})
 
  module.exports = router
  
